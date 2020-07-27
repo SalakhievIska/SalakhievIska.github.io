@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ISKA</title>
+	<meta name="title" content="" />
+	<meta name="description" content="" />
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+  <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<div class="mobile-menu">
+  <input id="hamburger" class="hamburger" type="checkbox"/>
+  <label class="hamburger" for="hamburger">
+    <i></i>
+    <text>
+      <close>close</close>
+      <open>menu</open>
+    </text>
+  </label>
+  <div class="drawer-list">
+        <ul>
+          <li><a href="#firstPage">О нас</a></li>
+          <li><a href="#secondPage">Услуги</a></li>
+          <li><a href="#3rdPage">Ход работы</a></li>
+          <li><a href="#4rdPage">Начать проект</a></li>
+      </ul>
+  </div>
+</div>
+<div class="container-header">
+    <div class="container-header-items">
+      <div class="container-items">
+        <a class="logo" href="#1" data-index="1">
+            <img src="img/logotipy1.png">
+        </a>
+        <div class="btn-close">
+          <div class="icon-item"></div>
+          <div class="icon-item"></div>
+          <div class="icon-item"></div>
+        </div>
+        <div class="item">
+          <a class="menu-item" href="#2">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <div class="menu-text">
+              О нас
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a class="menu-item" href="#3">
+            <svg class="icon icon-doc-menu"><use xlink:href="#icon-doc-menu"></use></svg>
+            <div class="menu-text">
+              Услуги
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a class="menu-item" href="#4">
+            <svg class="icon icon-fly"><use xlink:href="#icon-fly"></use></svg>
+            <div class="menu-text">
+              Ход работы
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a class="menu-item" href="#5">
+            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+            <div class="menu-text">
+              Начать проект
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<svg data-duration="10" data-delay="45" display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+
+
+
+  <symbol id="icon-info" width="24" height="24" viewBox="0 0 24 24">
+    <path class="cls-1" d="M3142.01,162a12,12,0,1,1,12-12A12.01,12.01,0,0,1,3142.01,162Zm-0.02-21.989A9.992,9.992,0,1,0,3152,150,10,10,0,0,0,3141.99,140.011Zm1.02,15.994h-2v-8.014h2v8.014Zm0-10h-2v-2h2v2Z" transform="translate(-3130 -138)"></path></symbol>
+
+  <symbol id="icon-fly" width="22" height="21" viewBox="0 0 22 21">
+    <path class="cls-1" d="M3140.77,231a2.235,2.235,0,0,1-.4-0.046,1.819,1.819,0,0,1-1.07-.682A2.146,2.146,0,0,1,3139,229v-7h-7c-1.06,0-1.68-.05-1.95-1.23a1.918,1.918,0,0,1,.12-1.207,1.849,1.849,0,0,1,.87-0.9l18.25-8.474a1.9,1.9,0,0,1,2.18.37,1.834,1.834,0,0,1,.32,2.159l-9.36,17.24A1.777,1.777,0,0,1,3140.77,231Zm0.23-11v8l8.82-15.837L3133,220h8Z" transform="translate(-3130 -210)"></path></symbol>
+
+  <symbol id="icon-star" width="24" height="23" viewBox="0 0 24 23">
+    <path class="cls-1" d="M3148.48,372.012a2.033,2.033,0,0,1-1.02-.29l-5.46-2.868-5.49,2.884a1.663,1.663,0,0,1-2.2-.326,1.751,1.751,0,0,1-.33-1.052,2.816,2.816,0,0,1,.04-0.411l1.05-6.135-4.45-4.328a1.993,1.993,0,0,1-.63-1.344,1.616,1.616,0,0,1,1.58-1.588l6.15-.894,2.75-5.565A1.653,1.653,0,0,1,3142,349a1.678,1.678,0,0,1,1.55,1.116l2.74,5.543,6.13,0.892a1.613,1.613,0,0,1,1.59,1.59,1.89,1.89,0,0,1-.63,1.335l-4.45,4.336,1.06,6.113c0.01,0.125.02,0.258,0.02,0.434a1.791,1.791,0,0,1-.32,1.048A1.455,1.455,0,0,1,3148.48,372.012Zm-6.48-5.395,5.95,3.127-1.14-6.621,4.8-4.689-6.63-.965-2.98-6.016-2.97,6.016-6.65.967,4.82,4.686-1.14,6.621Z" transform="translate(-3130 -349)"></path></symbol>
+
+  <symbol id="icon-doc-menu" width="28" height="19" viewBox="0 0 28 19">
+    <path class="cls-1" d="M3130.99,420v15.015L3133,435V422h20l0.01,14.154a0.8,0.8,0,0,1-.25.6,0.871,0.871,0,0,1-.62.252l-22.3,0a0.8,0.8,0,0,1-.6-0.264,0.862,0.862,0,0,1-.25-0.625L3129,422h-2l-0.01,14.436a2.547,2.547,0,0,0,2.56,2.545l22.85,0.032a2.588,2.588,0,0,0,2.59-2.593V420h-24ZM3151.01,425v2.009h-16.02V425h16.02Zm0,5.011v1.972h-16.02v-1.972h16.02Z" transform="translate(-3127 -420)"></path></symbol>
+
+
+</defs></svg>
+
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1" id="1">
+          <video id="myVideo" loop muted autoplay>
+            <source src="img/Background.mp4" type="video/mp4">
+          </video>
+          <div class="logo">ISKA
+            <h2>Интернет агенство</h2>
+          </div> 
+          <div class="container">
+            <div class="row">
+              <div class="button"><a href="#3">Начать проект</a></div>
+            </div>
+          </div>
+      </section>
+	    
+	    <section class="page2" id="2">
+	      <div class="page_container">
+          <img src="img/risunochek.png" style="width: 500px; margin-right: 700px;box-shadow:inset 1px 3px 5px 0px rgba(130,130,130,1);">
+	      </div>
+      </section>
+	    
+	    <section class="page3" id="3">
+	      <div class="page_container">
+  	    </div>
+      </section>
+      
+      <section class="page4" id="4">
+        <div class="page_container">
+        </div>
+      </section>
+      
+      <section class="page5" id="5">
+        <div class="page_container">
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+</body>
+</html>
